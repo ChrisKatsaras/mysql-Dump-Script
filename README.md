@@ -2,6 +2,9 @@
 
 Script that dumps SQL database on a schedule
 
+![alt tag](https://media.giphy.com/media/5YO4km322zuNy/giphy.gif) 
+
+
 ## Configuration:
 > command = "mysqldump -h localhost -uroot -p DATABASENAME"
 Change localhost to desired host
