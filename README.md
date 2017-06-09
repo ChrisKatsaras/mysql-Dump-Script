@@ -11,9 +11,11 @@ Requires pexpect and schedule
 
 
 ## Configuration:
-> command = "mysqldump -h localhost -uroot -p DATABASENAME"
-Change localhost to desired host
-Change DATABASENAME to desired database
+> command = "mysqldump -h localhost -uroot -p DATABASENAME"  
+
+Change localhost to desired host  
+Change -uroot to be -uYourUsername
+Change DATABASENAME to desired database  
 
 > p.sendline("") 
 Put your mysql password in between the quotes.
