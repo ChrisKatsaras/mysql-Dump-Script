@@ -4,6 +4,11 @@ Script that dumps SQL database on a schedule
 
 ![alt tag](https://media.giphy.com/media/5YO4km322zuNy/giphy.gif) 
 
+## Dependencies
+Requires pexpect and schedule
+> pip install pexpect  
+> pip install schedule  
+
 
 ## Configuration:
 > command = "mysqldump -h localhost -uroot -p DATABASENAME"
