@@ -17,7 +17,8 @@ Change localhost to desired host
 Change -uroot to be -uYourUsername
 Change DATABASENAME to desired database  
 
-> p.sendline("") 
+> p.sendline("")  
+
 Put your mysql password in between the quotes.
 
 
